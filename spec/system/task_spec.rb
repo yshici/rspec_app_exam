@@ -1,5 +1,4 @@
 require 'rails_helper'
-include ApplicationHelper
 
 RSpec.describe 'Task', type: :system do
   let(:project){ FactoryBot.create(:project) }
